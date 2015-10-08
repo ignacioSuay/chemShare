@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "chemshare",
+    "packageName": "com.chemshare",
+    "packageFolder": "com/chemshare",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "useCompass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "acde7299f52f17f33f9f9bd813d62dcab79005e0"
+  }
+}
