@@ -12,6 +12,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css assets/styles/vendor.css -->
         <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css assets/styles/main.css -->
@@ -22,15 +23,39 @@
         <!--[if lt IE 10]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div ng-show="{{ENV === 'dev'}}" class="development" ng-cloak=""></div>
+        <div  class="development" ng-cloak=""></div>
         <div ui-view="navbar" ng-cloak=""></div>
-        <div class="container">
-            <div class="well" ui-view="content"></div>
-
-            <div class="footer">
-                <p translate="footer">This is your footer</p>
-            </div>
+        <div>
+            <div ui-view="content"></div>
         </div>
+            <div class="container footer">
+
+                <div class="col-md-4 footerText">
+                    <ul>
+                        <li>© 2015 chemShare</li>
+                        <li><a class="subFooterText" ui-sref="terms"> Terms </a></li>
+                        <li><a class="subFooterText" ui-sref="privacy"> Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="social-icons">
+                        <li><a href="https://twitter.com/"><span>Twitter</span></a></li>
+                        <!--<li><a href="https://plus.google.com/‎"><span>Google+</span></a></li>-->
+                        <li><a href="https://www.facebook.com/"><span>Facebook</span></a></li>
+                        <li><a href="https://github.com/"><span>GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/"><span>LinkedIn</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footerText">
+                    <ul>
+                        <li><a class="subFooterText" ui-sref="about"> About Us</a></li>
+                        <li><a class="subFooterText" ui-sref="team"> Team </a></li>
+                        <li><a class="subFooterText" ui-sref="contact"> Contact Us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
 
         <!-- Google Analytics: uncomment and change UA-XXXXX-X to be your site's ID.
         <script>
