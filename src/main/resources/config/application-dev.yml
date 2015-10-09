@@ -9,7 +9,9 @@ spring:
             host: localhost
             port: 27017
             database: chemshare
-    
+            username:
+            password:
+
 
     mail:
         baseUrl: http://localhost:8080
