@@ -6,4 +6,11 @@ angular.module('chemshareApp')
             $scope.account = account;
             $scope.isAuthenticated = Principal.isAuthenticated;
         });
+
+        $('#mainView').removeClass("container");
+
+        $scope.$on("$destroy", function() {
+            $('#mainView').addClass("container");
+        });
+
     });
