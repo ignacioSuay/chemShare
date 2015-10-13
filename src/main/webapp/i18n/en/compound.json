@@ -1,0 +1,22 @@
+{
+    "chemshareApp": {
+        "compound" : {
+            "home": {
+                "title": "Compounds",
+                "createLabel": "Create a new Compound",
+                "createOrEditLabel": "Create or edit a Compound"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Compound {{ id }}?"
+            },
+            "detail": {
+                "title": "Compound"
+            },
+            "structure": "Structure",
+            "university": "University",
+            "Price": "Price",
+            "unit": "Unit",
+            "userId": "UserId"
+        }
+    }
+}

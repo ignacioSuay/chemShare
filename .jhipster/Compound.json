@@ -1,0 +1,46 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "structure",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Structure",
+            "fieldNameUnderscored": "structure"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "university",
+            "fieldType": "String",
+            "fieldNameCapitalized": "University",
+            "fieldNameUnderscored": "university"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "Price",
+            "fieldType": "Integer",
+            "fieldNameCapitalized": "Price",
+            "fieldNameUnderscored": "price"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "unit",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Unit",
+            "fieldNameUnderscored": "unit"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "userId",
+            "fieldType": "Integer",
+            "fieldNameCapitalized": "UserId",
+            "fieldNameUnderscored": "user_id"
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": false,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false
+}

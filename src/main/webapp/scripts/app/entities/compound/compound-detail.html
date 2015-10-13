@@ -1,0 +1,62 @@
+
+<div>
+    <h2><span translate="chemshareApp.compound.detail.title">Compound</span> {{compound.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="chemshareApp.compound.structure">Structure</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{compound.structure}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="chemshareApp.compound.university">University</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{compound.university}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="chemshareApp.compound.Price">Price</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{compound.Price}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="chemshareApp.compound.unit">Unit</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{compound.unit}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="chemshareApp.compound.userId">UserId</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{compound.userId}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="compound"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
