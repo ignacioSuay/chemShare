@@ -38,7 +38,7 @@
                         <div class="form-group">
                             <label translate="chemshareApp.compound.Price">Price</label>
                             <input type="number" class="form-control" name="Price"
-                                   ng-model="compound.Price">
+                                   ng-model="compound.price">
                         </div>
                         <div class="form-group">
                             <label translate="chemshareApp.compound.unit">Unit</label>
@@ -101,7 +101,7 @@
                     <td><a ui-sref="compoundDetail({id:compound.id})">{{compound.id}}</a></td>
                     <td>{{compound.structure}}</td>
                     <td>{{compound.university}}</td>
-                    <td>{{compound.Price}}</td>
+                    <td>{{compound.price}}</td>
                     <td>{{compound.unit}}</td>
                     <td>
                         <button type="submit"

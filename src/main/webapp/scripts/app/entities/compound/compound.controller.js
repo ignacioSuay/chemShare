@@ -43,6 +43,6 @@ angular.module('chemshareApp')
         };
 
         $scope.clear = function () {
-            $scope.compound = {structure: null, university: null, Price: null, unit: null, userId: null, id: null};
+            $scope.compound = {structure: null, university: null, price: null, unit: null, userId: null, id: null};
         };
     });

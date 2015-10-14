@@ -22,7 +22,7 @@ public class Compound implements Serializable {
     private String university;
 
     @Field("price")
-    private Integer Price;
+    private Integer price;
 
     @Field("unit")
     private String unit;
@@ -55,11 +55,11 @@ public class Compound implements Serializable {
     }
 
     public Integer getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(Integer Price) {
-        this.Price = Price;
+        this.price = Price;
     }
 
     public String getUnit() {
@@ -105,7 +105,7 @@ public class Compound implements Serializable {
                 "id=" + id +
                 ", structure='" + structure + "'" +
                 ", university='" + university + "'" +
-                ", Price='" + Price + "'" +
+                ", Price='" + price + "'" +
                 ", unit='" + unit + "'" +
                 ", userId='" + userId + "'" +
                 '}';
