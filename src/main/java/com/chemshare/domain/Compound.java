@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * A Compound.
  */
-@Document(collection = "T_COMPOUND")
+@Document(collection = "compound")
 public class Compound implements Serializable {
 
     @Id
