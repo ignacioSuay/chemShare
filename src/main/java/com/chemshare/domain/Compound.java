@@ -28,7 +28,7 @@ public class Compound implements Serializable {
     private String unit;
 
     @Field("user_id")
-    private Integer userId;
+    private String userId;
 
     public String getId() {
         return id;
@@ -70,11 +70,11 @@ public class Compound implements Serializable {
         this.unit = unit;
     }
 
-    public Integer getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

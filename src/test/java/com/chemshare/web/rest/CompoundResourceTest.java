@@ -46,8 +46,8 @@ public class CompoundResourceTest {
     private static final String DEFAULT_UNIT = "SAMPLE_TEXT";
     private static final String UPDATED_UNIT = "UPDATED_TEXT";
 
-    private static final Integer DEFAULT_USER_ID = 0;
-    private static final Integer UPDATED_USER_ID = 1;
+    private static final String DEFAULT_USER_ID = "0";
+    private static final String UPDATED_USER_ID = "1";
 
     @Inject
     private CompoundRepository compoundRepository;

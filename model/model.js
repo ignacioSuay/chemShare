@@ -65,26 +65,26 @@ db.compound.insert({
     university: "University Of Oxford",
     price: 10,
     unit: "mg",
-    user_id: 1
+    user_id: "user-3"
 });
 db.compound.insert({
     structure: "CCOC(=O)N1C/C(=C\c2ccccc2)/C(=O)/C(=C/c2ccccc2)/C1",
     university: "University Of Bristol",
     price: 120,
     unit: "mg",
-    user_id: 1
+    user_id: "user-3"
 });
 db.compound.insert({
     structure: "OC(=O)c1ccc(c2c1nccn2)O",
     university: "University Of Reading",
     price: 30,
     unit: "mg",
-    user_id: 1
+    user_id: "user-3"
 });
 db.compound.insert({
     structure: "CN1CCN(CC1)c1nc(Cl)c(c(=N)[nH]1)Br",
     university: "University Of Oxford",
     price: 5,
     unit: "mg",
-    user_id: 1
+    user_id: "user-3"
 });
