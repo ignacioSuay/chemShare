@@ -1,2 +1,14 @@
 README for chemshare
 ==========================
+
+Web application for sharing chemical compounds
+
+Currently, this project is under development.
+
+Technology stack:
+
+- Databases: MongoDB and H2
+- Spring Boot, Data JPA, MVC REST
+-  Responsive Web design with Bootstrap, Compass and CSS
+- AngularJS and HTML5
+- Bower, Grunt and Karma
