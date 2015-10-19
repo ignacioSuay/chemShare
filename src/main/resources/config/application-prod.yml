@@ -6,11 +6,12 @@ spring:
         active: prod
     data:
         mongodb:
-            host: localhost
-            port: 27017
+            uri: mongodb://suayi:vocCemead3@ds041154.mongolab.com:41154/chemshare
+            port: 41154
+            host: ds041154.mongolab.com
             database: chemshare
-            username: ignacioSuay
-            password: _v44mJnVg
+            username: suayi
+            password: vocCemead3
 
 
     mail:
