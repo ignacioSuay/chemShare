@@ -12,3 +12,7 @@ Technology stack:
 - Responsive Web design with Bootstrap, Compass and CSS
 - AngularJS and HTML5
 - Bower, Grunt and Karma
+
+
+To access the production database add this parameter:
+--spring.profiles.active=prod
