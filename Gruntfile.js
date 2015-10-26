@@ -246,9 +246,9 @@ module.exports = function (grunt) {
             //         ]
             //     }
             // }
-            options: {
-                root: 'src/main/webapp' // Replace relative paths for static resources with absolute path
-            }
+            //options: {
+            //    root: 'src/main/webapp' // Replace relative paths for static resources with absolute path
+            //}
         },
         ngtemplates:    {
             dist: {
@@ -315,6 +315,16 @@ module.exports = function (grunt) {
                     src: [
                         'generated/*'
                     ]
+                },{
+                    expand: true,
+                    cwd: 'src/main/webapp/bower_components/bootstrap-sass/assets',
+                    src: 'fonts/*',
+                    dest: '<%= yeoman.dist %>/assets/'
+                },{
+                    expand: true,
+                    cwd: 'src/main/webapp/bower_components/fontawesome',
+                    src: 'fonts/*',
+                    dest: '<%= yeoman.dist %>/assets/'
                 }]
             },
             generateHerokuDirectory: {
