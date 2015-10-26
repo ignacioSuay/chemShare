@@ -29,7 +29,7 @@ import static java.util.Collections.singletonList;
 @Configuration
 @Profile("!cloud")
 @EnableMongoRepositories("com.chemshare.repository")
-@Import(value = MongoAutoConfiguration.class)
+//@Import(value = MongoAutoConfiguration.class)
 @EnableMongoAuditing(auditorAwareRef = "springSecurityAuditorAware")
 public class DatabaseConfiguration extends AbstractMongoConfiguration  {
 
