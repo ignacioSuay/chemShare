@@ -2,6 +2,7 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 
 // bower:scss
 @import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "fontawesome/scss/font-awesome.scss";
 // endbower
 
 body {
@@ -38,7 +39,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../images/test-tubes-904546_1280.jpg);
+    background-image: url(../images/test-tubes.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
