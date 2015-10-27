@@ -417,7 +417,7 @@ module.exports = function (grunt) {
             },
             prod: {
                 options: {
-                    dest: '.tmp/scripts/app/app.constants.js',
+                    dest: '.tmp/scripts/app/app.constants.js'
                 },
                 constants: {
                     ENV: 'prod',
