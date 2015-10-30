@@ -77,4 +77,18 @@ public class CompoundResource {
         log.debug("REST request to delete Compound : {}", id);
         compoundRepository.delete(id);
     }
+
+    /**
+     * POST  /compounds -> Create a new compound.
+     */
+    @RequestMapping(value = "/findCompounds/{userId}",
+        method = RequestMethod.POST,
+        produces = MediaType.APPLICATION_JSON_VALUE)
+    @Timed
+    public List<Compound> findCompoundsByUser(@RequestBody String userId) {
+        log.debug("REST request to find Compound by user: {}", userId);
+        return compoundRepository.findCompoundByUserId(userId);
+    }
+
+
 }

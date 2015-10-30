@@ -12,13 +12,16 @@ async:
     queueCapacity: 10000
 
 spring:
-    
+    profiles:
+        active: dev
     data:
         mongodb:
              host: localhost
              port: 27017
              database: chemshare
-    
+             username:
+             password:
+
 
     mail:
         host: localhost
