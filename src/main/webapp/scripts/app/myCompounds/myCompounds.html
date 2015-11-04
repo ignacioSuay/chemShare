@@ -1,6 +1,6 @@
 <div>
 
-    <h2 translate="chemshareApp.compound.home.title">Compound</h2>
+    <h2>My Compounds</h2>
 
     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#saveCompoundModal" ng-click="clear()">
         <span class="glyphicon glyphicon-flash"></span> <span translate="chemshareApp.compound.home.createLabel">Create a new Compound</span>
@@ -88,7 +88,6 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
                     <th translate="chemshareApp.compound.structure">Structure</th>
                     <th translate="chemshareApp.compound.university">University</th>
                     <th translate="chemshareApp.compound.Price">Price</th>
@@ -98,8 +97,7 @@
             </thead>
             <tbody>
                 <tr ng-repeat="compound in compounds">
-                    <td><a ui-sref="compoundDetail({id:compound.id})">{{compound.id}}</a></td>
-                    <td>{{compound.structure}}</td>
+                    <td><a ui-sref="compoundDetail({id:compound.id})">{{compound.structure}}</a></td>
                     <td>{{compound.university}}</td>
                     <td>{{compound.price}}</td>
                     <td>{{compound.unit}}</td>

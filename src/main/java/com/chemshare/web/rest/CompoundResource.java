@@ -81,7 +81,7 @@ public class CompoundResource {
     /**
      * POST  /compounds -> Create a new compound.
      */
-    @RequestMapping(value = "/findCompounds/{userId}",
+    @RequestMapping(value = "/findCompounds",
         method = RequestMethod.POST,
         produces = MediaType.APPLICATION_JSON_VALUE)
     @Timed

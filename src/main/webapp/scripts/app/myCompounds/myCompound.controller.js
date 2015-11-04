@@ -1,12 +1,13 @@
 'use strict';
 
 angular.module('chemshareApp')
-    .controller('MyCompoundController', function ($scope, Compound) {
+    .controller('MyCompoundController', function ($scope,$http,  Compound) {
         $scope.compounds = [];
         $scope.loadAll = function() {
-            Compound.query(function(result) {
-               $scope.compounds = result;
-            });
+            var userId = "user-3";
+            $http.post("api/findCompounds", userId).success(function (response) {
+                $scope.compounds = response;
+            }).error(function(){alert("Error getting my compounds data")});
         };
         $scope.loadAll();
 
