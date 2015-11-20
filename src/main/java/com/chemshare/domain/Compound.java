@@ -5,6 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * A Compound.
@@ -14,6 +15,8 @@ public class Compound implements Serializable {
 
     @Id
     private String id;
+
+    private String name;
 
     @Field("structure")
     private String structure;
@@ -29,6 +32,14 @@ public class Compound implements Serializable {
 
     @Field("user_id")
     private String userId;
+
+    private String smile;
+
+    private List<String> tags;
+
+    private String enzymeInhibitor;
+
+    private String biologicalActivity;
 
     public String getId() {
         return id;
@@ -76,6 +87,46 @@ public class Compound implements Serializable {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSmile() {
+        return smile;
+    }
+
+    public void setSmile(String smile) {
+        this.smile = smile;
+    }
+
+    public List<String> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<String> tags) {
+        this.tags = tags;
+    }
+
+    public String getEnzymeInhibitor() {
+        return enzymeInhibitor;
+    }
+
+    public void setEnzymeInhibitor(String enzymeInhibitor) {
+        this.enzymeInhibitor = enzymeInhibitor;
+    }
+
+    public String getBiologicalActivity() {
+        return biologicalActivity;
+    }
+
+    public void setBiologicalActivity(String biologicalActivity) {
+        this.biologicalActivity = biologicalActivity;
     }
 
     @Override
