@@ -37,8 +37,10 @@ public class Compound implements Serializable {
 
     private List<String> tags;
 
+    @Field("enzyme_inhibitor")
     private String enzymeInhibitor;
 
+    @Field("biological_activity")
     private String biologicalActivity;
 
     public String getId() {
