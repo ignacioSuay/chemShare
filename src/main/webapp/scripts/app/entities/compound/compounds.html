@@ -139,7 +139,7 @@
                     <td>{{compound.university}}</td>
                     <td>{{compound.price}}</td>
                     <td>{{compound.unit}}</td>
-                    <td>{{compound.tags}}</td>
+                    <td>{{compound.tags | arrayToComaList}}</td>
                     <td>
                         <button type="submit"
                                 ui-sref="compoundDetail({id:compound.id})"
