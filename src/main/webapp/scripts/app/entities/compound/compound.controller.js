@@ -11,6 +11,7 @@ angular.module('chemshareApp')
         $scope.loadAll();
 
         $scope.create = function () {
+            $scope.compound.tags = $scope.getTags();
             Compound.save($scope.compound,
                 function () {
                     $scope.loadAll();
@@ -43,6 +44,13 @@ angular.module('chemshareApp')
         };
 
         $scope.clear = function () {
-            $scope.compound = {structure: null, university: null, price: null, unit: null, userId: null, id: null};
+            $scope.compound = {structure: null, university: null, price: null, unit: null, userId: null, id: null, tags: null};
+            $scope.tags = null;
         };
+
+        $scope.getTags = function(){
+            if($scope.tags)
+                return $scope.tags.split(",").map(function(s) { return s.trim()});
+            return null;
+        }
     });
