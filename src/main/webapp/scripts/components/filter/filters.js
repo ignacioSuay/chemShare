@@ -6,6 +6,5 @@ angular.module('chemshareApp')
             if(array)
                 return array.join(", ");
             return "";
-
         }
     });
