@@ -312,3 +312,9 @@ hr.star-primary:after {
     color: #17222f;
     background-color: #fafafa;
 }
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1570px !important;
+    }
+}

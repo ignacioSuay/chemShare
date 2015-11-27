@@ -12145,3 +12145,10 @@ hr.star-primary:after {
   color: #17222f;
   background-color: #fafafa;
 }
+
+@media (min-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003317}}
+  .container {
+    width: 1570px !important;
+  }
+}
