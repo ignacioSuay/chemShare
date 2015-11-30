@@ -35,4 +35,11 @@ public class CompoundRepositoryTests {
         List<Compound> compoundList = compoundRepository.findCompoundByUserId(userId);
         assertThat(compoundList).isNotNull();
     }
+
+    @Test
+    public void testFindCompoundsTerm() {
+        String term = "Penicillin N";
+        List<Compound> compoundList = compoundRepository.findCompoundsByTerm(term);
+        assertThat(compoundList).isNotNull();
+    }
 }
