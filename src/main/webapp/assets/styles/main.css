@@ -11840,9 +11840,10 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  margin-top: -19px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000351}}
 header .header-content {
   position: relative;
   width: 100%;
@@ -11850,7 +11851,7 @@ header .header-content {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000358}}
 header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -11862,12 +11863,12 @@ header .header-content .header-content-inner h1 {
   text-shadow: #000 2px 2px 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000369}}
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000373}}
 header .header-content .header-content-inner p {
   margin-bottom: 50px;
   font-size: 16px;
@@ -11875,12 +11876,12 @@ header .header-content .header-content-inner p {
 }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000382}}
   header {
     min-height: 500px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000386}}
   header .header-content {
     position: absolute;
     top: 50%;
@@ -11890,14 +11891,14 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\0000395}}
   header .header-content .header-content-inner {
     margin-right: auto;
     margin-left: auto;
     max-width: 1000px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003101}}
   header .header-content .header-content-inner p {
     margin-right: auto;
     margin-left: auto;
@@ -11905,12 +11906,12 @@ header .header-content .header-content-inner p {
     font-size: 18px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003111}}
 #features .features-item {
   text-align: center;
   padding: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003115}}
 #features .features-item .icon {
   font-size: 50px;
   border-radius: 50%;
@@ -11921,12 +11922,12 @@ header .header-content .header-content-inner p {
   color: white;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003125}}
 #features .features-item .icon:before {
   font: 1.5em/1.6em "FontAwesome";
 }
 @media (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003111}}
   #features .features-item {
     max-width: 320px;
     display: block;
@@ -11936,19 +11937,19 @@ header .header-content .header-content-inner p {
 }
 
 /* make sure browsers use the pointer cursor for anchors, even with no href */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003138}}
 a:hover {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003143}}
 section.success {
   height: 400px;
   margin-top: 30px;
 }
 
 /* start Password strength bar style */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003153}}
 ul#strength {
   display: inline;
   list-style: none;
@@ -11958,12 +11959,12 @@ ul#strength {
   vertical-align: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003162}}
 .point:last {
   margin: 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003165}}
 .point {
   background: #DDD;
   border-radius: 2px;
@@ -11974,26 +11975,26 @@ ul#strength {
 }
 
 /* end Password strength bar style */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003190}}
 .social-icons {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003195}}
 .social-icons li {
   display: inline-block;
   margin: 0 0.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003200}}
 .social-icons span {
   display: block;
   width: 0;
   height: 0;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003206}}
 .social-icons a {
   display: inline-block;
   width: 2.5em;
@@ -12003,89 +12004,89 @@ ul#strength {
   color: white;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003215}}
 .social-icons a:before {
   font: 1.5em/1.75 "FontAwesome";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="twitter"] {
   background-color: #55acee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="twitter"]:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="google"] {
   background-color: #dd4b39;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="google"]:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="facebook"] {
   background-color: #3b5998;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="facebook"]:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="github"] {
   background-color: #231f20;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="github"]:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="linkedin"] {
   background-color: #0977b5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="linkedin"]:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="dribbble"] {
   background-color: #ea4c89;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="dribbble"]:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003232}}
 .social-icons a[href*="rss"] {
   background-color: #ff6600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003235}}
 .social-icons a[href*="rss"]:before {
   content: "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003245}}
 .footer {
   position: relative;
   margin-top: 40px;
   padding-bottom: 40px;
   color: #767676;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003251}}
 .footer .footerText {
   font-size: 1.1em;
   margin-left: -40px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003256}}
 .footer li {
   display: inline-block;
   margin-right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003262}}
 .joinText, .bigText {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   color: #ffffff;
@@ -12096,12 +12097,12 @@ ul#strength {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003272}}
 .bigText {
   color: #17222f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003278}}
 hr.star-light,
 hr.star-primary {
   margin: 25px auto 30px;
@@ -12112,7 +12113,7 @@ hr.star-primary {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003288}}
 hr.star-light:after,
 hr.star-primary:after {
   content: "\f005";
@@ -12124,30 +12125,30 @@ hr.star-primary:after {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003299}}
 hr.star-light {
   border-color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003303}}
 hr.star-light:after {
   color: #fff;
   background-color: #18bc9c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003308}}
 hr.star-primary {
   border-color: #2c3e50;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003312}}
 hr.star-primary:after {
   color: #17222f;
   background-color: #fafafa;
 }
 
 @media (min-width: 1600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/suay\/ignacioSuay\/chemShare\/src\/main\/scss\/main\.scss}line{font-family:\00003318}}
   .container {
     width: 1570px !important;
   }
