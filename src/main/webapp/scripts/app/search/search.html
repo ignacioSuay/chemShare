@@ -2,8 +2,47 @@
 
     <h2>Search</h2>
     <div class="input-group input-group-lg">
-        <span class="input-group-addon" id="sizing-addon1"><span class="fa fa-search"></span> </span>
-        <input type="text" class="form-control" placeholder="Search compound" aria-describedby="sizing-addon1">
+        <span class="input-group-addon" id="sizing-addon1" ng-click="search()"><span class="fa fa-search"></span> </span>
+        <input type="text" class="form-control" placeholder="Search compound" aria-describedby="sizing-addon1" ng-model="term" cs-enter="search()">
         <span class="input-group-addon" id="sizing-addon1">Advanced Search </span>
     </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th translate="chemshareApp.compound.structure">Structure</th>
+                <th>smile</th>
+                <th>enzyme Inhibitor</th>
+                <th>biological Activity</th>
+                <th translate="chemshareApp.compound.university">University</th>
+                <th translate="chemshareApp.compound.Price">Price</th>
+                <th translate="chemshareApp.compound.unit">Unit</th>
+                <th>tags</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="compound in compounds">
+                <td><a ui-sref="compoundDetail({id:compound.id})">{{compound.name}}</a></td>
+                <td>{{compound.structure}}</td>
+                <td>{{compound.smile}}</td>
+                <td>{{compound.enzymeInhibitor}}</td>
+                <td>{{compound.biologicalActivity}}</td>
+                <td>{{compound.university}}</td>
+                <td>{{compound.price}}</td>
+                <td>{{compound.unit}}</td>
+                <td>{{compound.tags | arrayToComaList}}</td>
+                <td>
+                    <button type="submit"
+                            ui-sref="compoundDetail({id:compound.id})"
+                            class="btn btn-info">
+                        <span class="glyphicon glyphicon-eye-open"></span>&nbsp;<span translate="entity.action.view"> View</span>
+                    </button>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
 </div>
