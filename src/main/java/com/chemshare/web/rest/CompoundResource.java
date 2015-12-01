@@ -90,5 +90,16 @@ public class CompoundResource {
         return compoundRepository.findCompoundByUserId(userId);
     }
 
+    /**
+     * POST  /compounds -> Create a new compound.
+     */
+    @RequestMapping(value = "/findCompoundsTerm/{term}",
+        method = RequestMethod.GET,
+        produces = MediaType.APPLICATION_JSON_VALUE)
+    @Timed
+    public List<Compound> findCompoundsByTerm(@PathVariable String term) {
+        log.debug("REST request to find Compound by term: {}", term);
+        return compoundRepository.findCompoundsByTerm(term);
+    }
 
 }
