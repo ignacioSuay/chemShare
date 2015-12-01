@@ -13,6 +13,6 @@ public interface CompoundRepository extends MongoRepository<Compound,String>{
 
     List<Compound> findCompoundByUserId(String userId);
 
-    @Query("{'$or':[ {'name':'?0}, {'structure':?0}, {'smile' :?0} ] }")
+    @Query("{'$or':[ {'name': ?0}, {'structure':?0}, {'smile' :?0} ] }")
     List<Compound> findCompoundsByTerm(String term);
 }
