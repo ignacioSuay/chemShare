@@ -15,12 +15,12 @@ angular.module('chemshareApp')
                         templateUrl: 'scripts/app/search/search.html',
                         controller: 'SearchController'
                     }
+                },
+                resolve: {
+                    translatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
+                        $translatePartialLoader.addPart('compound');
+                        return $translate.refresh();
+                    }]
                 }
-                //resolve: {
-                //    translatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
-                //        $translatePartialLoader.addPart('search');
-                //        return $translate.refresh();
-                //    }]
-                //}
             })
     });
