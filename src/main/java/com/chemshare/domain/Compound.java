@@ -43,6 +43,8 @@ public class Compound implements Serializable {
     @Field("biological_activity")
     private String biologicalActivity;
 
+    private String image;
+
     public String getId() {
         return id;
     }
@@ -129,6 +131,14 @@ public class Compound implements Serializable {
 
     public void setBiologicalActivity(String biologicalActivity) {
         this.biologicalActivity = biologicalActivity;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     @Override
