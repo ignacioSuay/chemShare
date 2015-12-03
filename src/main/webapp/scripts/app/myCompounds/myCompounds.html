@@ -88,6 +88,7 @@
         <table class="table table-striped">
             <thead>
                 <tr>
+                    <th>Image</th>
                     <th>Name</th>
                     <th translate="chemshareApp.compound.structure">Structure</th>
                     <th>smile</th>
@@ -102,6 +103,7 @@
             </thead>
             <tbody>
                 <tr ng-repeat="compound in compounds">
+                    <td><img src="assets/images/compounds/{{compound.image}}" height="100px" /> </td>
                     <td><a ui-sref="compoundDetail({id:compound.id})">{{compound.name}}</a></td>
                     <td>{{compound.structure}}</td>
                     <td>{{compound.smile}}</td>
