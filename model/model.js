@@ -99,7 +99,8 @@ db.compound.insert({
     tags:["Boronic ester", "Aromatic", "Aryl halide", "Fluorine"],
     enzyme_inhibitor:"",
     biological_activity:"",
-    user_id: "user"
+    user_id: "user",
+    image: "Chem_1.png"
 });
 
 db.compound.insert({
@@ -112,7 +113,8 @@ db.compound.insert({
     tags:["Aromatic", "Aryl halide", "Azide"],
     enzyme_inhibitor:"",
     biological_activity:"Cytotoxic",
-    user_id: "user"
+    user_id: "user",
+    image: "Chem_2.png"
 });
 
 db.compound.insert({
@@ -125,7 +127,8 @@ db.compound.insert({
     tags:["Aromatic", "Aryl halide", "Azide"],
     enzyme_inhibitor:"Bromodomain",
     biological_activity:"",
-    user_id: "user"
+    user_id: "user",
+    image: "Chem_3.png"
 });
 
 db.compound.insert({
@@ -138,7 +141,8 @@ db.compound.insert({
     tags:["Amino acid", "Carboxylic acid", "Amine", "Lactam"],
     enzyme_inhibitor:"",
     biological_activity:"Antibiotic",
-    user_id: "user"
+    user_id: "user",
+    image: "Chem_4.png"
 });
 
 db.compound.insert({
@@ -151,5 +155,6 @@ db.compound.insert({
     tags:["Amino acid", "Carboxylic acid","Quinoline"],
     enzyme_inhibitor:"2OG-oxygenases",
     biological_activity:"Anticancer",
-    user_id: "user"
+    user_id: "user",
+    image: "Chem_5.png"
 });
