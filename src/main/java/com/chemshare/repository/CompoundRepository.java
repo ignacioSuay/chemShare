@@ -15,4 +15,7 @@ public interface CompoundRepository extends MongoRepository<Compound,String>{
 
     @Query("{'$or':[ {'name': ?0}, {'structure':?0}, {'smile' :?0}, {'tags': ?0} ] }")
     List<Compound> findCompoundsByTerm(String term);
+
+    @Query("{'$or':[ {'name': {$regex : ?0, $options: 'i'}}, {'structure':{$regex : ?0, $options: 'i'}}, {'smile' :{$regex : ?0, $options: 'i'}}, {'tags': {$regex : ?0, $options: 'i'}} ] }")
+    List<Compound> findCompoundsByRegexTerm(String term);
 }

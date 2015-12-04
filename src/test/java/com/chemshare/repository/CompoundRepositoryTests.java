@@ -42,4 +42,11 @@ public class CompoundRepositoryTests {
         List<Compound> compoundList = compoundRepository.findCompoundsByTerm(term);
         assertThat(compoundList).isNotNull();
     }
+
+    @Test
+    public void testFindCompoundsRegExTerm() {
+        String term = "penicillin N";
+        List<Compound> compoundList = compoundRepository.findCompoundsByRegexTerm(term);
+        assertThat(compoundList).isNotNull();
+    }
 }
