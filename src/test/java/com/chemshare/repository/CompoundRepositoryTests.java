@@ -41,6 +41,7 @@ public class CompoundRepositoryTests {
         String term = "Penicillin N";
         List<Compound> compoundList = compoundRepository.findCompoundsByTerm(term);
         assertThat(compoundList).isNotNull();
+        assertThat(compoundList.size()).isGreaterThan(0);
     }
 
     @Test
@@ -48,5 +49,6 @@ public class CompoundRepositoryTests {
         String term = "penicillin N";
         List<Compound> compoundList = compoundRepository.findCompoundsByRegexTerm(term);
         assertThat(compoundList).isNotNull();
+        assertThat(compoundList.size()).isGreaterThan(0);
     }
 }
