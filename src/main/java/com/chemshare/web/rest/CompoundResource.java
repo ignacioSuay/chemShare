@@ -99,7 +99,7 @@ public class CompoundResource {
     @Timed
     public List<Compound> findCompoundsByTerm(@PathVariable String term) {
         log.debug("REST request to find Compound by term: {}", term);
-        return compoundRepository.findCompoundsByTerm(term);
+        return compoundRepository.findCompoundsByRegexTerm(term);
     }
 
 }
