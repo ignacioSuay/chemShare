@@ -1,8 +1,17 @@
 'use strict';
 
 angular.module('chemshareApp')
-    .controller('SearchController', function ($scope,$http, Compound) {
+    .controller('SearchController', function ($scope,$http, Compound, $stateParams) {
         $scope.compounds = [];
+
+        $scope.init = function(){
+            if($stateParams.searchTerm){
+                $scope.term = $stateParams.searchTerm;
+                $scope.search();
+            }
+        };
+
+        $scope.init();
 
         $scope.search = function() {
             $http.get("api/findCompoundsTerm/" + $scope.term).success(function (response) {
