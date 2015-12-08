@@ -14,7 +14,7 @@ angular.module('chemshareApp')
         });
 
         $scope.search = function(){
-            $state.go("search", {searchTerm:'peni'});
+            $state.go("search", {'searchTerm':$scope.searchTerm});
         }
 
     });
