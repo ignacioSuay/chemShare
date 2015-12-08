@@ -11,7 +11,6 @@ angular.module('chemshareApp')
             }
         };
 
-        $scope.init();
 
         $scope.search = function() {
             $http.get("api/findCompoundsTerm/" + $scope.term).success(function (response) {
@@ -19,5 +18,8 @@ angular.module('chemshareApp')
             }).error(function () {
                 alert("Error getting my search compounds")
             });
-        }
+        };
+
+        $scope.init();
+
     });
