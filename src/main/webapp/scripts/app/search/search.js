@@ -6,6 +6,7 @@ angular.module('chemshareApp')
             .state('search', {
                 parent: 'entity',
                 url: '/search',
+                params: {'searchTerm':null},
                 data: {
                     roles: ['ROLE_USER'],
                     pageTitle: 'chemshareApp.compound.home.title'
