@@ -325,6 +325,11 @@ module.exports = function (grunt) {
                     cwd: 'src/main/webapp/bower_components/fontawesome',
                     src: 'fonts/*',
                     dest: '<%= yeoman.dist %>/assets/'
+                }, {
+                    expand: true,
+                    cwd: 'src/main/webapp/assets',
+                    src: 'compounds/**',
+                    dest: '<%= yeoman.dist %>/assets/'
                 }]
             },
             generateHerokuDirectory: {
