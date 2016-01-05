@@ -8,7 +8,7 @@ angular.module('chemshareApp')
                 url: '/search',
                 params: {'searchTerm':null},
                 data: {
-                    roles: ['ROLE_USER'],
+                    roles: [],
                     pageTitle: 'chemshareApp.compound.home.title'
                 },
                 views: {
