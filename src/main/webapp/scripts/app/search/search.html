@@ -6,7 +6,16 @@
         <input type="text" class="form-control" placeholder="Search compound" aria-describedby="sizing-addon1" ng-model="term" cs-enter="search()">
         <span class="input-group-addon" id="sizing-addon1">Advanced Search </span>
     </div>
+    <div>
 
+        <button class="btn sm-btn" ng-click="tagSearch('Amine')">Amine</button>
+        <button class="btn sm-btn" ng-click="tagSearch('Amino acid')">Amino acid</button>
+        <button class="btn sm-btn" ng-click="tagSearch('Aryl halide')">Aryl halide</button>
+        <button class="btn sm-btn" ng-click="tagSearch('Aromatic')">Aromatic</button>
+        <button class="btn sm-btn" ng-click="tagSearch('Azide')">Azide</button>
+        <button class="btn sm-btn" ng-click="tagSearch('Carboxylic acid')">Carboxylic acid</button>
+
+    </div>
     <br>
     <div ng-show="compounds.length > 0">
         <b>{{compounds.length}} results found</b>
