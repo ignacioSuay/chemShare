@@ -20,6 +20,11 @@ angular.module('chemshareApp')
             });
         };
 
+        $scope.tagSearch = function(tag) {
+            $scope.term = tag;
+            $scope.search();
+        };
+
         $scope.init();
 
     });
